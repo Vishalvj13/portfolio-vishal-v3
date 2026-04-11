@@ -1,8 +1,3 @@
-You’re right. The earlier version was too plain.
-
-Below is a more **reference-style, interactive `README.md`** modeled after the masterPortfolio README structure, but rewritten for **your project** and your current cleaned repo.
-
-````md
 <p align="center">
   <img src="./public/icons/desc.png" alt="Vishal Junghare Portfolio Banner" width="100%" />
 </p>
@@ -372,21 +367,6 @@ If deploying through GitHub Pages, make sure to update the `homepage` field in `
 
 # Credits 👏
 
-Original design inspiration comes from the [masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) project by **Ashutosh Hathidara**.
-
 This repository has been customized and cleaned specifically for **Vishal Junghare**.
 
 ---
-
-# License 📄
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
-```
-
-For an even closer match to the reference README, I can also give you a version with:
-- center-aligned preview cards
-- collapsible sections using `<details>`
-- GIF/screenshot blocks
-- “Live Demo / Source Code / Resume” buttons at the top
-```
