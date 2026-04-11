@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./public/icons/desc.png" alt="Vishal Junghare Portfolio Banner" width="100%" />
-</p>
-
 <h1 align="center">Vishal Junghare Portfolio 🔥</h1>
 <h3 align="center">
   A clean, responsive, and fully customized developer portfolio built with React,
