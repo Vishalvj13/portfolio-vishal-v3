@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "id": "vishal-hms",
+      "name": "hospital-management-system",
+      "createdAt": "2022-03-01T00:00:00Z",
+      "url": "https://github.com/Vishalvj13/hospital-management-system",
+      "description": "Full-stack hospital management application built with React, Spring Boot, Spring Data JPA, MySQL, and AWS-oriented deployment concepts.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "logos-mysql"
+        }
+      ]
+    },
+    {
+      "id": "vishal-microservices",
+      "name": "microservices-spring-boot",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "url": "https://github.com/Vishalvj13/microservices-spring-boot",
+      "description": "Quiz and question platform using Spring Boot microservices, Eureka service discovery, Feign Client communication, and API Gateway routing.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "simple-icons:springboot"
+        },
+        {
+          "name": "REST API",
+          "iconifyClass": "mdi:api"
+        }
+      ]
+    },
+    {
+      "id": "vishal-aws-deploy",
+      "name": "reat.js-springboot-mysql-aws-deployment",
+      "createdAt": "2024-05-01T00:00:00Z",
+      "url": "https://github.com/Vishalvj13/reat.js-springboot-mysql-aws-deployment",
+      "description": "End-to-end deployment of a Spring Boot and React application using EC2, S3, CloudFront, and RDS in AWS.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "AWS",
+          "iconifyClass": "simple-icons:amazonaws"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "vishal-portfolio",
+      "name": "portfolio-vishal",
+      "createdAt": "2026-03-01T00:00:00Z",
+      "url": "https://github.com/Vishalvj13/portfolio-vishal",
+      "description": "Personal portfolio website showcasing backend skills, projects, experience, certifications, and writing.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
+  ]
+}

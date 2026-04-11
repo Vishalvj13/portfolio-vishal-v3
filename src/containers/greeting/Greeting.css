@@ -1,0 +1,150 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 0.5rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.greeting-text {
+  margin-top: 18px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 26px;
+  line-height: 1.55;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting-photo-shell {
+  position: relative;
+  width: min(390px, 88%);
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting-photo-card {
+  position: relative;
+  z-index: 2;
+  width: 74%;
+  height: 74%;
+  padding: 14px;
+  border-radius: 36px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(240, 244, 255, 0.96));
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(110, 130, 180, 0.15);
+  animation: vjFloat 4.8s ease-in-out infinite;
+}
+
+.greeting-profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+  display: block;
+}
+
+.greeting-photo-ring {
+  position: absolute;
+  border-radius: 32px;
+  border: 2px solid rgba(99, 102, 241, 0.18);
+}
+
+.greeting-photo-ring-one {
+  inset: 6%;
+  transform: rotate(8deg);
+}
+
+.greeting-photo-ring-two {
+  inset: 0;
+  border-color: rgba(244, 114, 182, 0.18);
+  transform: rotate(-6deg);
+}
+
+@keyframes vjFloat {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .greeting-main {
+    display: block;
+  }
+
+  .greeting-photo-shell {
+    width: min(340px, 90vw);
+  }
+}

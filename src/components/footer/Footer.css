@@ -1,0 +1,12 @@
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  margin: 0;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0 12px;
+}

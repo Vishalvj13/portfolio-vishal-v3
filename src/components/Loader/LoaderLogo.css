@@ -1,0 +1,42 @@
+.loader-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  animation: fadeBrand 1.2s ease-in-out;
+}
+
+.loader-brand-mark {
+  width: 140px;
+  height: 140px;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Google Sans Bold";
+  font-size: 56px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+  box-shadow: 0 24px 50px rgba(37, 99, 235, 0.35);
+}
+
+.loader-brand-name {
+  font-family: "Google Sans Medium";
+  font-size: 32px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+@keyframes fadeBrand {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
