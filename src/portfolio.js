@@ -11,7 +11,7 @@ const settings = {
 const seo = {
   title: "Vishal Junghare's Portfolio",
   description:
-    "AWS-certified Java developer with 3+ years of experience building scalable microservices, secure enterprise solutions, and cloud automation.",
+    "AWS-certified Java developer with 4 years of experience building scalable microservices, secure enterprise solutions, and cloud automation.",
   og: {
     title: "Vishal Junghare Portfolio",
     type: "website",
@@ -25,7 +25,7 @@ const greeting = {
   logo_name: "VishalJunghare",
   nickname: "backend_engineer",
   subTitle:
-    "AWS-Certified Java Developer with 3+ years of experience building scalable microservices, secure enterprise solutions for telecom clients, and cloud automation. Skilled in Spring Boot, RESTful APIs, AWS, and policy-as-code automation with a strong focus on maintainability, security, and business impact.",
+    "AWS-Certified Java Developer with 4 years of experience building scalable microservices, secure enterprise solutions for telecom clients, and cloud automation. Skilled in Spring Boot, RESTful APIs, AWS, and policy-as-code automation with a strong focus on maintainability, security, and business impact.",
   resumeLink:
     "https://drive.google.com/file/d/1RsoWIo2fpRE1joYaiEC6AuJeWnMZi8gj/view?usp=sharing",
   githubProfile: "https://github.com/Vishalvj13",
